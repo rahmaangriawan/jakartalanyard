@@ -53,8 +53,8 @@ export default async function AuthorPostPage({ params }: PageProps) {
     "@graph": [
       {
         "@type": "ProfilePage",
-        "@id": `https://lanyardjakarta.co.id/blog/author/${slug}/#profilepage`,
-        "url": `https://lanyardjakarta.co.id/blog/author/${slug}`,
+        "@id": `https://jakartalanyard.com/blog/author/${slug}/#profilepage`,
+        "url": `https://jakartalanyard.com/blog/author/${slug}`,
         "name": `Profil Penulis: ${authorName} - Lanyard Jakarta`,
         "mainEntity": {
           "@type": "Person",
@@ -63,25 +63,25 @@ export default async function AuthorPostPage({ params }: PageProps) {
           "worksFor": {
             "@type": "Organization",
             "name": "Lanyard Jakarta",
-            "url": "https://lanyardjakarta.co.id"
+            "url": "https://jakartalanyard.com"
           }
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `https://lanyardjakarta.co.id/blog/author/${slug}/#breadcrumb`,
+        "@id": `https://jakartalanyard.com/blog/author/${slug}/#breadcrumb`,
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Beranda",
-            "item": "https://lanyardjakarta.co.id"
+            "item": "https://jakartalanyard.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Author",
-            "item": `https://lanyardjakarta.co.id/blog/author/${slug}`
+            "item": `https://jakartalanyard.com/blog/author/${slug}`
           }
         ]
       }

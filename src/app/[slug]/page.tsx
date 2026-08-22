@@ -39,7 +39,7 @@ export default async function CustomPage({ params }: PageProps) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
   const pageUrl = `${siteUrl}/${page.slug}`;
 
   const jsonLd = {

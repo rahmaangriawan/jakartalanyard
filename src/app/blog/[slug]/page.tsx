@@ -201,7 +201,7 @@ export default async function BlogPostPage({
 
   // 8. Generate JSON-LD Schemas using @graph structure
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   const authorUrl = `${siteUrl}/blog/author/admin`;
   const featuredImageFullUrl = post.featuredImage

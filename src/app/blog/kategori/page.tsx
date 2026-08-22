@@ -22,37 +22,37 @@ export default async function CategoriesPage() {
     "@graph": [
       {
         "@type": "CollectionPage",
-        "@id": "https://lanyardjakarta.co.id/blog/kategori/#collectionpage",
-        "url": "https://lanyardjakarta.co.id/blog/kategori",
+        "@id": "https://jakartalanyard.com/blog/kategori/#collectionpage",
+        "url": "https://jakartalanyard.com/blog/kategori",
         "name": "Daftar Kategori Artikel - Lanyard Jakarta",
         "description": "Daftar kategori artikel edukasi promosi, event, dan percetakan lanyard custom.",
         "publisher": {
           "@type": "Organization",
           "name": "Lanyard Jakarta",
-          "logo": "https://lanyardjakarta.co.id/images/logo.webp"
+          "logo": "https://jakartalanyard.com/images/logo.webp"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://lanyardjakarta.co.id/blog/kategori/#breadcrumb",
+        "@id": "https://jakartalanyard.com/blog/kategori/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Beranda",
-            "item": "https://lanyardjakarta.co.id"
+            "item": "https://jakartalanyard.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://lanyardjakarta.co.id/blog"
+            "item": "https://jakartalanyard.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Kategori",
-            "item": "https://lanyardjakarta.co.id/blog/kategori"
+            "item": "https://jakartalanyard.com/blog/kategori"
           }
         ]
       }

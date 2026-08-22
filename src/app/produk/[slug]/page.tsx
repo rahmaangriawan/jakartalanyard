@@ -54,7 +54,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
   const pageUrl = `${siteUrl}/produk/${product.slug}`;
   const categoryName = product.category?.name || "Lanyard Custom";
   const categoryHref = product.category?.slug ? `/produk/kategori/${product.category.slug}` : "/produk";

@@ -368,7 +368,7 @@ export default function CitiesEditor({ editId }: { editId?: number }) {
         id: "hasInternalLink",
         label: "Internal link",
         passed: hasInternalLink,
-        tip: "Tambahkan tautan (link) internal ke halaman lain dalam situs lanyardjakarta.co.id."
+        tip: "Tambahkan tautan (link) internal ke halaman lain dalam situs jakartalanyard.com."
       },
       {
         id: "hasFeaturedImage",
@@ -922,7 +922,7 @@ export default function CitiesEditor({ editId }: { editId?: number }) {
                   <div>
                     <label className="block text-[10px] font-bold text-gray-500 uppercase mb-1.5">Preview di Google</label>
                     <div className="bg-gray-50 rounded-lg border border-gray-200 p-3 space-y-1">
-                      <p className="text-[10px] text-green-700 font-medium truncate">lanyardjakarta.co.id &rsaquo; {autoSlug || "contoh-halaman-kota"}</p>
+                      <p className="text-[10px] text-green-700 font-medium truncate">jakartalanyard.com &rsaquo; {autoSlug || "contoh-halaman-kota"}</p>
                       <p className="text-sm font-bold text-blue-700 leading-tight truncate">{metaTitle || title || "Judul halaman Anda akan muncul di sini"}</p>
                       <p className="text-[11px] text-gray-500 leading-snug line-clamp-2">{metaDescription || "Masukkan meta description untuk melihat preview di hasil pencarian Google."}</p>
                     </div>

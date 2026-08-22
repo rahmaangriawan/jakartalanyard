@@ -9,7 +9,7 @@ import ClientFooter from "@/components/ClientFooter";
 import "./globals.css";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
 
 export const revalidate = 300; // Cache metadata SEO selama 5 menit
 
@@ -32,14 +32,6 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL(siteUrl),
     alternates: {
       canonical: "/",
-    },
-    icons: {
-      icon: [
-        { url: "/favicon.ico" },
-        { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
-        { url: "/favicon.svg", type: "image/svg+xml" },
-      ],
-      apple: "/apple-touch-icon.png",
     },
     manifest: "/site.webmanifest",
     verification: settings.bingVerification

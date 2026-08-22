@@ -109,7 +109,7 @@ export default async function CatchAllPage({ params }: PageProps) {
     });
 
     if (page) {
-      const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+      const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
       const pageUrl = `${siteUrl}/${page.slug}`;
 
       const jsonLd = {
@@ -208,7 +208,7 @@ export default async function CatchAllPage({ params }: PageProps) {
   }
 
   const leafCity = chain[chain.length - 1];
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
 
   // Build JSON-LD Breadcrumbs dynamically from nested parent chain
   let accumulatedPath = "";

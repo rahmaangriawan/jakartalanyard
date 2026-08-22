@@ -76,37 +76,37 @@ export default async function CategoryPostPage({ params }: PageProps) {
     "@graph": [
       {
         "@type": "CollectionPage",
-        "@id": `https://lanyardjakarta.co.id/blog/kategori/${category.slug}/#collectionpage`,
-        "url": `https://lanyardjakarta.co.id/blog/kategori/${category.slug}`,
+        "@id": `https://jakartalanyard.com/blog/kategori/${category.slug}/#collectionpage`,
+        "url": `https://jakartalanyard.com/blog/kategori/${category.slug}`,
         "name": `Artikel Kategori ${category.name} - Lanyard Jakarta`,
         "description": category.description || `Kumpulan artikel edukatif, panduan dan tips seputar ${category.name.toLowerCase()} dari Lanyard Jakarta.`,
         "publisher": {
           "@type": "Organization",
           "name": "Lanyard Jakarta",
-          "logo": "https://lanyardjakarta.co.id/images/logo.webp"
+          "logo": "https://jakartalanyard.com/images/logo.webp"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `https://lanyardjakarta.co.id/blog/kategori/${category.slug}/#breadcrumb`,
+        "@id": `https://jakartalanyard.com/blog/kategori/${category.slug}/#breadcrumb`,
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Beranda",
-            "item": "https://lanyardjakarta.co.id"
+            "item": "https://jakartalanyard.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://lanyardjakarta.co.id/blog"
+            "item": "https://jakartalanyard.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": category.name,
-            "item": `https://lanyardjakarta.co.id/blog/kategori/${category.slug}`
+            "item": `https://jakartalanyard.com/blog/kategori/${category.slug}`
           }
         ]
       }

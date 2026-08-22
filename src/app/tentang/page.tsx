@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
 
 const jsonLd = {
   "@context": "https://schema.org",

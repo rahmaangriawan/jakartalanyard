@@ -1079,7 +1079,7 @@ export default function BlogEditor({ editId }: { editId?: number }) {
         id: "hasInternalLink",
         label: "Internal link",
         passed: hasInternalLink,
-        tip: "Tambahkan tautan (link) internal ke halaman lain dalam situs lanyardjakarta.co.id.",
+        tip: "Tambahkan tautan (link) internal ke halaman lain dalam situs jakartalanyard.com.",
       },
       {
         id: "hasFeaturedImage",

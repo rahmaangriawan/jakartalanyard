@@ -66,31 +66,31 @@ export default async function BlogListingPage({ searchParams }: PageProps) {
     "@graph": [
       {
         "@type": "CollectionPage",
-        "@id": "https://lanyardjakarta.co.id/blog/#collectionpage",
-        "url": "https://lanyardjakarta.co.id/blog",
+        "@id": "https://jakartalanyard.com/blog/#collectionpage",
+        "url": "https://jakartalanyard.com/blog",
         "name": "Blog & Artikel Edukasi Lanyard Jakarta",
         "description": "Temukan panduan, tips cetak lanyard custom, ulasan promosi event, dan info branding.",
         "publisher": {
           "@type": "Organization",
           "name": "Lanyard Jakarta",
-          "logo": "https://lanyardjakarta.co.id/images/logo.webp"
+          "logo": "https://jakartalanyard.com/images/logo.webp"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://lanyardjakarta.co.id/blog/#breadcrumb",
+        "@id": "https://jakartalanyard.com/blog/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Beranda",
-            "item": "https://lanyardjakarta.co.id"
+            "item": "https://jakartalanyard.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://lanyardjakarta.co.id/blog"
+            "item": "https://jakartalanyard.com/blog"
           }
         ]
       }

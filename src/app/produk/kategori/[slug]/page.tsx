@@ -49,7 +49,7 @@ export default async function ProductCategoryArchivePage({ params }: PageProps) 
     .filter((p) => p.categoryId === category.id && p.published)
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lanyardjakarta.co.id";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jakartalanyard.com";
   const pageUrl = `${siteUrl}/produk/kategori/${category.slug}`;
 
   const categoryPageSchema = {

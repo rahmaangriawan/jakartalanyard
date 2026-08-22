@@ -49,11 +49,11 @@ const HOMEPAGE_SCHEMA = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://lanyardjakarta.co.id/#organization",
+      "@id": "https://jakartalanyard.com/#organization",
       "name": "Lanyard Jakarta",
-      "url": "https://lanyardjakarta.co.id",
-      "logo": "https://lanyardjakarta.co.id/images/logo.webp",
-      "image": "https://lanyardjakarta.co.id/images/logo.webp",
+      "url": "https://jakartalanyard.com",
+      "logo": "https://jakartalanyard.com/images/logo.webp",
+      "image": "https://jakartalanyard.com/images/logo.webp",
       "description": "Produsen cetak tali lanyard custom premium cepat dan murah di Jakarta.",
       "telephone": "+6282210200700",
       "address": {
@@ -78,15 +78,15 @@ const HOMEPAGE_SCHEMA = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://lanyardjakarta.co.id/#website",
-      "url": "https://lanyardjakarta.co.id",
+      "@id": "https://jakartalanyard.com/#website",
+      "url": "https://jakartalanyard.com",
       "name": "Lanyard Jakarta",
       "publisher": {
-        "@id": "https://lanyardjakarta.co.id/#organization"
+        "@id": "https://jakartalanyard.com/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://lanyardjakarta.co.id/?s={search_term_string}",
+        "target": "https://jakartalanyard.com/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
